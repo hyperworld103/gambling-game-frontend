@@ -1,0 +1,17 @@
+#slide {
+    position: absolute;
+    top: -27px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    height: 69px;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@keyframes slide {
+    100% { top: 0; }
+}

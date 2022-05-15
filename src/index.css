@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("./assets/mobile-body-bg.png") center top no-repeat;
+  background-size:cover;
+}
+
+@media (min-width: 960px) {
+  body {
+    background: url("./assets/body-web-bg.png") center top no-repeat;
+  }
+}
+
+* {
+  font-family: 'El Messiri', sans-serif;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  line-height: 1;
+}
+
+button {
+  -webkit-appearance:none;
+  background: 0;
+  border:0
+}
+
+:focus {
+  outline:0;
+}
+
